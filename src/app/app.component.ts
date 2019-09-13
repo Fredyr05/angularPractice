@@ -8,6 +8,8 @@ import { Component, OnChanges, OnInit, DoCheck, AfterContentInit, AfterContentCh
 export class AppComponent implements OnChanges,OnInit,DoCheck,AfterContentInit,AfterContentChecked,AfterViewInit,AfterViewChecked,OnDestroy {
   title:string = 'This is the Parent';
 
+  parentChat = 'Hello Child';
+
   ngOnChanges(){
     console.log("Parent: Onchanges");
   }
